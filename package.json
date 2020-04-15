@@ -1,5 +1,5 @@
 {
-  "name": "face_detection",
+  "name": "face-detection",
   "version": "1.0.0",
   "main": "server.js",
   "scripts": {
