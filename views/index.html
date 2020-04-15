@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      position: relative;
+      font-family: 'Courier New', Courier, monospace;
+    }
+    .padding {
+      padding: 20px;
+    }
+    .flex-wrap {
+      display: flex;
+      flex-wrap: wrap;
+    }
+  </style>
+</head>
+<body>
+  <div class="padding">
+    <div class="flex-wrap">
+      <div>
+        <center>Entrance</center>
+        <div style="height: 20px;"></div>
+        <img id="media1" src="media1">
+      </div>
+      <div style="width: 40px;"></div>
+      <div>
+        <center>Exit</center>
+        <div style="height: 20px;"></div>
+        <img id="media2" src="media2">
+      </div>
+    </div>
+    <div style="height: 40px;"></div>
+    <div><span>Occupants </span><span id="count">0</span></div>
+    <ul id="list" style="list-style-type: none"></ul>
+  </div>
+    <script src="interface.js"></script>
+</body>
+</html>

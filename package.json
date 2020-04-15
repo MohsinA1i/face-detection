@@ -1,0 +1,23 @@
+{
+  "name": "face_detection",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Mohsin Ali",
+  "license": "ISC",
+  "dependencies": {
+    "@tensorflow/tfjs-node": "^1.2.3",
+    "base64-arraybuffer": "^0.2.0",
+    "canvas": "^2.6.0",
+    "express": "^4.17.1",
+    "face-api.js": "^0.21.0",
+    "mjpeg-decoder": "^1.0.3",
+    "path": "^0.12.7",
+    "request": "^2.88.0",
+    "ws": "^7.2.0"
+  },
+  "description": ""
+}
